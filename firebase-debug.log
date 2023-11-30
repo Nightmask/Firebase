@@ -1,0 +1,66 @@
+[debug] [2023-11-30T11:57:20.049Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T11:57:20.054Z] Command:       D:\Node\node.exe D:\Node\node_global\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2023-11-30T11:57:20.055Z] CLI Version:   12.9.1
+[debug] [2023-11-30T11:57:20.055Z] Platform:      win32
+[debug] [2023-11-30T11:57:20.055Z] Node Version:  v20.10.0
+[debug] [2023-11-30T11:57:20.055Z] Time:          Thu Nov 30 2023 19:57:20 GMT+0800 (香港标准时间)
+[debug] [2023-11-30T11:57:20.055Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-30T11:57:20.186Z] Object ".remoteconfig" in "firebase.json" is missing required property: {"missingProperty":"template"}
+[debug] [2023-11-30T11:57:20.193Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-30T11:57:20.193Z] > authorizing via signed-in user (emperorlxy@gmail.com)
+[debug] [2023-11-30T11:57:20.193Z] [iam] checking project fir-rtc-d1558 for permissions ["firebase.projects.get"]
+[debug] [2023-11-30T11:57:20.197Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions [none]
+[debug] [2023-11-30T11:57:20.197Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions x-goog-quota-user=projects/fir-rtc-d1558
+[debug] [2023-11-30T11:57:20.197Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-11-30T11:57:21.456Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions 200
+[debug] [2023-11-30T11:57:21.457Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-11-30T11:57:21.459Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 [none]
+[debug] [2023-11-30T11:57:21.892Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 200
+[debug] [2023-11-30T11:57:21.892Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 {"projectId":"fir-rtc-d1558","projectNumber":"406516812507","displayName":"FirebaseRTC","name":"projects/fir-rtc-d1558","resources":{"hostingSite":"fir-rtc-d1558","realtimeDatabaseInstance":"fir-rtc-d1558-default-rtdb","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2"},"state":"ACTIVE","etag":"1_64848bca-ad83-49e1-a0f1-b04cf8489254"}
+[debug] [2023-11-30T11:57:21.903Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites 
+[debug] [2023-11-30T11:57:22.510Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites 200
+[debug] [2023-11-30T11:57:22.510Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites {"sites":[{"name":"projects/fir-rtc-d1558/sites/fir-rtc-d1558","defaultUrl":"https://fir-rtc-d1558.web.app","appId":"1:406516812507:web:933b0b7ced189c75021afe","type":"DEFAULT_SITE"}]}
+[debug] [2023-11-30T11:57:22.511Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config [none]
+[debug] [2023-11-30T11:57:23.321Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config 200
+[debug] [2023-11-30T11:57:23.322Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config {"projectId":"fir-rtc-d1558","appId":"1:406516812507:web:933b0b7ced189c75021afe","databaseURL":"https://fir-rtc-d1558-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2","apiKey":"AIzaSyBezFVzEzJRI6KZ59MC2nHagwQMYBm74_A","authDomain":"fir-rtc-d1558.firebaseapp.com","messagingSenderId":"406516812507","measurementId":"G-L9BZ6TYVGR"}
+[debug] [2023-11-30T11:57:23.329Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 [none]
+[debug] [2023-11-30T11:57:23.695Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 200
+[debug] [2023-11-30T11:57:23.696Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 {"projectId":"fir-rtc-d1558","projectNumber":"406516812507","displayName":"FirebaseRTC","name":"projects/fir-rtc-d1558","resources":{"hostingSite":"fir-rtc-d1558","realtimeDatabaseInstance":"fir-rtc-d1558-default-rtdb","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2"},"state":"ACTIVE","etag":"1_64848bca-ad83-49e1-a0f1-b04cf8489254"}
+[info] i  hosting[fir-rtc-d1558]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fir-rtc-d1558]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [30/Nov/2023:11:57:33 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [30/Nov/2023:11:57:33 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\""}}
+[info] i  hosting: ::1 - - [30/Nov/2023:11:57:33 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [30/Nov/2023:11:57:33 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\""}}
+[debug] [2023-11-30T12:01:17.361Z] ----------------------------------------------------------------------
+[debug] [2023-11-30T12:01:17.364Z] Command:       D:\Node\node.exe D:\Node\node_global\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2023-11-30T12:01:17.364Z] CLI Version:   12.9.1
+[debug] [2023-11-30T12:01:17.365Z] Platform:      win32
+[debug] [2023-11-30T12:01:17.365Z] Node Version:  v20.10.0
+[debug] [2023-11-30T12:01:17.365Z] Time:          Thu Nov 30 2023 20:01:17 GMT+0800 (香港标准时间)
+[debug] [2023-11-30T12:01:17.365Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-30T12:01:17.484Z] Object ".remoteconfig" in "firebase.json" is missing required property: {"missingProperty":"template"}
+[debug] [2023-11-30T12:01:17.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-30T12:01:17.491Z] > authorizing via signed-in user (emperorlxy@gmail.com)
+[debug] [2023-11-30T12:01:17.491Z] [iam] checking project fir-rtc-d1558 for permissions ["firebase.projects.get"]
+[debug] [2023-11-30T12:01:17.493Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions [none]
+[debug] [2023-11-30T12:01:17.493Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions x-goog-quota-user=projects/fir-rtc-d1558
+[debug] [2023-11-30T12:01:17.493Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-11-30T12:01:18.467Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions 200
+[debug] [2023-11-30T12:01:18.468Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-rtc-d1558:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-11-30T12:01:18.469Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 [none]
+[debug] [2023-11-30T12:01:18.826Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 200
+[debug] [2023-11-30T12:01:18.827Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 {"projectId":"fir-rtc-d1558","projectNumber":"406516812507","displayName":"FirebaseRTC","name":"projects/fir-rtc-d1558","resources":{"hostingSite":"fir-rtc-d1558","realtimeDatabaseInstance":"fir-rtc-d1558-default-rtdb","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2"},"state":"ACTIVE","etag":"1_64848bca-ad83-49e1-a0f1-b04cf8489254"}
+[debug] [2023-11-30T12:01:18.830Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites 
+[debug] [2023-11-30T12:01:19.352Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites 200
+[debug] [2023-11-30T12:01:19.353Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-rtc-d1558/sites {"sites":[{"name":"projects/fir-rtc-d1558/sites/fir-rtc-d1558","defaultUrl":"https://fir-rtc-d1558.web.app","appId":"1:406516812507:web:933b0b7ced189c75021afe","type":"DEFAULT_SITE"}]}
+[debug] [2023-11-30T12:01:19.354Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config [none]
+[debug] [2023-11-30T12:01:20.145Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config 200
+[debug] [2023-11-30T12:01:20.146Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558/webApps/1:406516812507:web:933b0b7ced189c75021afe/config {"projectId":"fir-rtc-d1558","appId":"1:406516812507:web:933b0b7ced189c75021afe","databaseURL":"https://fir-rtc-d1558-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2","apiKey":"AIzaSyBezFVzEzJRI6KZ59MC2nHagwQMYBm74_A","authDomain":"fir-rtc-d1558.firebaseapp.com","messagingSenderId":"406516812507","measurementId":"G-L9BZ6TYVGR"}
+[debug] [2023-11-30T12:01:20.160Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 [none]
+[debug] [2023-11-30T12:01:20.405Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 200
+[debug] [2023-11-30T12:01:20.406Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-rtc-d1558 {"projectId":"fir-rtc-d1558","projectNumber":"406516812507","displayName":"FirebaseRTC","name":"projects/fir-rtc-d1558","resources":{"hostingSite":"fir-rtc-d1558","realtimeDatabaseInstance":"fir-rtc-d1558-default-rtdb","storageBucket":"fir-rtc-d1558.appspot.com","locationId":"asia-east2"},"state":"ACTIVE","etag":"1_64848bca-ad83-49e1-a0f1-b04cf8489254"}
+[info] i  hosting[fir-rtc-d1558]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fir-rtc-d1558]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [30/Nov/2023:12:01:31 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [30/Nov/2023:12:01:31 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\""}}
+[info] i  hosting: ::1 - - [30/Nov/2023:12:01:32 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [30/Nov/2023:12:01:32 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0\""}}

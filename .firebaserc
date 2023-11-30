@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "fir-rtc-d1558",
+    "defult": "fir-rtc-d1558",
+    "staging": "fir-rtc-d1558",
+    "public": "fir-rtc-d1558"
+  },
+  "targets": {},
+  "etags": {}
+}
